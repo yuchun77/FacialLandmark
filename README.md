@@ -1,1 +1,8 @@
-# FacialLandmark
+# Facial Landmark
+
+這是我在中興大學深度學習課程上的期中專題，\
+老師給我們一組一個人的人臉，約7000張，\
+要求我們使用線上標記軟體標記：左眼、右眼、鼻子、左嘴角、右嘴角，共5個點，\
+使用 `json_transform.py` 將標記軟體上的 json 檔案轉換成常用到的 csv 檔案格式，\
+主要 code 位在 `Tom_code_final` 資料夾中，\
+依照 input size 及輸入圖片是否被改為灰階影像分成4個檔案。
